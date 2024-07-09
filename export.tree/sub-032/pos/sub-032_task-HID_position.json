@@ -1,0 +1,43 @@
+{
+  "SamplingFrequency": 120,
+  "StartTime": 1.7992466949316859E+6,
+  "StartTimeUTC": "1/2/2020 11:30:24 PM",
+  "Columns": [
+    "position_x",
+    "position_y",
+    "position_z",
+    "roation_x",
+    "rotation_y",
+    "rotation_z",
+    "Count"
+  ],
+  "Manufacturer": "NVIDIA Unreal Engine",
+  "position_x": {
+    "Description": "X position",
+    "Units": "Unreal Units"
+  },
+  "position_y": {
+    "Description": "Y position",
+    "Units": "Unreal Units"
+  },
+  "position_z": {
+    "Description": "Z position",
+    "Units": "Unreal Units"
+  },
+  "roation_x": {
+    "Description": "X rotation",
+    "Units": "degrees"
+  },
+  "rotation_y": {
+    "Description": "Y rotation",
+    "Units": "degrees"
+  },
+  "rotation_z": {
+    "Description": "Z rotation",
+    "Units": "degrees"
+  },
+  "Count": {
+    "Description": "sample count",
+    "Units": "integer"
+  }
+}

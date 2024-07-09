@@ -1,0 +1,63 @@
+{
+  "SamplingFrequency": 300,
+  "StartTime": 786743.57394642942,
+  "Columns": [
+    "time",
+    "origin_x",
+    "origin_y",
+    "origin_z",
+    "direction_x",
+    "direction_y",
+    "direction_z",
+    "point_x",
+    "point_y",
+    "point_z",
+    "gaze_data_count",
+    "target_object"
+  ],
+  "Manufacturer": "Tobii",
+  "origin_x": {
+    "Description": "origin_x",
+    "Units": "unk"
+  },
+  "origin_y": {
+    "Description": "origin_y",
+    "Units": "unk"
+  },
+  "origin_z": {
+    "Description": "origin_z",
+    "Units": "unk"
+  },
+  "direction_x": {
+    "Description": "direction_x",
+    "Units": "unk"
+  },
+  "direction_y": {
+    "Description": "direction_y",
+    "Units": "unk"
+  },
+  "direction_z": {
+    "Description": "direction_z",
+    "Units": "unk"
+  },
+  "point_x": {
+    "Description": "point_x",
+    "Units": "unk"
+  },
+  "point_y": {
+    "Description": "point_y",
+    "Units": "unk"
+  },
+  "point_z": {
+    "Description": "point_z",
+    "Units": "unk"
+  },
+  "gaze_data_count": {
+    "Description": "gaze_data_count",
+    "Units": "unk"
+  },
+  "target_object": {
+    "Description": "binary identifying whether or not gaze object was target object assigned to subject",
+    "Units": "binary"
+  }
+}

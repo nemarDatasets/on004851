@@ -1,0 +1,46 @@
+{
+  "SamplingFrequency": 300,
+  "StartTime": 15732.98188137336,
+  "Columns": [
+    "eye_timestamp",
+    "eye1_x_coordinate",
+    "eye1_y_coordinate",
+    "eye1_pupil_size",
+    "eye2_x_coordinate",
+    "eye2_y_coordinate",
+    "eye2_pupil_size"
+  ],
+  "Manufacturer": "Tobii",
+  "eye_timestamp": {
+    "Description": "Eye-tracker timestamp of the sampled recorded eye(s) gaze position coordinates and/or pupil size.",
+    "Units": "unk"
+  },
+  "eye1_x_coordinate": {
+    "Description": "Gaze position x-coordinate of the first recorded eye. If the two eyes are recorded, it MUST be the left eye x-coordinate.",
+    "Units": "unk"
+  },
+  "eye1_y_coordinate": {
+    "Description": "Gaze position y-coordinate of the first recorded eye. If the two eyes are recorded, it MUST be the left eye y-coordinate.",
+    "Units": "unk"
+  },
+  "eye1_pupil_size": {
+    "Description": "Pupil size of the first recorded eye. If the two eyes are recorded, it MUST be the left eye pupil size.",
+    "Units": "mm"
+  },
+  "eye2_x_coordinate": {
+    "Description": "Gaze position x-coordinate of the second recorded eye. If the two eyes are recorded, it MUST be the right eye x-coordinate.",
+    "Units": "unk"
+  },
+  "eye2_y_coordinate": {
+    "Description": "Gaze position y-coordinate of the second recorded eye. If the two eyes are recorded, it MUST be the right eye y-coordinate.",
+    "Units": "unk"
+  },
+  "eye2_pupil_size": {
+    "Description": "Pupil size of the second recorded eye. If the two eyes are recorded, it MUST be the right eye pupil size.",
+    "Units": "mm"
+  },
+  "Model": "Tobii Pro Spectrum",
+  "Datetime": "21-Apr-2021 09:55:03",
+  "FirmwareVersion": "1.7.8-sclera-0",
+  "RuntimeVersion": "Legacy TTP (3.0.4/6031)"
+}

@@ -1,0 +1,11 @@
+{
+  "InstitutionAddress": "Aberdeen, MD, USA",
+  "InstitutionName": "Army Research Laboratory",
+  "PowerLineFrequency": 50,
+  "TaskName": "HID",
+  "EEGReference": "common",
+  "RecordingType": "continuous",
+  "RecordingDuration": 1519.03564453125,
+  "SamplingFrequency": 2048,
+  "SoftwareFilters": "n/a"
+}
