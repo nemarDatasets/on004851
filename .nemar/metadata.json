@@ -1,7 +1,9 @@
 {
   "version": "2.0",
-  "pipeline_stage": "enriched",
+  "pipeline_stage": "validated",
   "title": "HID",
+  "description": "The HID dataset is a neuroimaging collection of intracranial electroencephalography (iEEG) recordings curated and formatted according to BIDS standards (version 1.8.0). This dataset is derived from OpenNeuro dataset ds004851 (v2.1.0) and has been reformatted and reorganized to meet current BIDS specifications. The dataset contains iEEG recordings from multiple subjects with comprehensive electrode localization information, sampling rates, and preprocessing documentation. This resource is made available under the CC0 license to facilitate open science and data sharing in neuroscience research.",
+  "methods_description": "Intracranial electroencephalography recordings were acquired and organized according to BIDS standards (version 1.8.0). Data processing and organization was performed using bids-matlab-tools (version 8.0). The dataset represents reformatted and reorganized iEEG data derived from OpenNeuro dataset ds004851 (v2.1.0). Detailed methodology including electrode placement, recording parameters, sampling rates, and preprocessing steps is documented in the dataset BIDS metadata files and README. Electrode specifications, anatomical localization, and recording parameters are provided in the accompanying JSON sidecars and channels.tsv files for each recording session.",
   "license": "CC0",
   "dataset_type": "raw",
   "authors": {
@@ -10,12 +12,24 @@
     "Jon Touryan": {},
     "Kevin King": {}
   },
-  "related_identifiers": [
+  "keywords": [
     {
-      "identifier": "10.18112/openneuro.ds004851.v2.1.0",
-      "identifier_type": "DOI",
-      "relation_type": "IsIdenticalTo"
+      "term": "intracranial EEG"
     },
+    {
+      "term": "electrocorticography"
+    },
+    {
+      "term": "electrode recordings"
+    },
+    {
+      "term": "BIDS"
+    },
+    {
+      "term": "open data"
+    }
+  ],
+  "related_identifiers": [
     {
       "identifier": "https://github.com/nemarDatasets/on004851",
       "identifier_type": "URL",
@@ -25,14 +39,19 @@
       "identifier": "https://nemar.org/dataexplorer/detail?dataset_id=on004851",
       "identifier_type": "URL",
       "relation_type": "IsDescribedBy"
+    },
+    {
+      "identifier": "10.18112/openneuro.ds004851.v2.1.0",
+      "identifier_type": "DOI",
+      "relation_type": "IsDerivedFrom"
     }
   ],
+  "resource_type_specific": "EEG Dataset",
   "modalities": [
     "eeg"
   ],
-  "resource_type_specific": "EEG Dataset",
   "sizes": [
-    "0.0 KB (1 files)"
+    "60.8 GB (332 files)"
   ],
   "formats": [
     ".fdt",
@@ -40,26 +59,8 @@
     ".json",
     ".md",
     ".set",
-    ".tsv"
+    ".tsv",
+    ".yml"
   ],
-  "description": "The HID (Human Intracranial Data) dataset contains intracranial electroencephalography (iEEG) recordings from human subjects. This dataset is formatted according to the Brain Imaging Data Structure (BIDS) standard (version 1.8.0) to facilitate reproducible analysis and collaborative research. For complete dataset documentation including recording parameters, subject demographics, experimental protocols, and data characteristics, please refer to the dataset README and associated BIDS metadata files.",
-  "keywords": [
-    {
-      "term": "intracranial electroencephalography"
-    },
-    {
-      "term": "iEEG"
-    },
-    {
-      "term": "electrocorticography"
-    },
-    {
-      "term": "neural recording"
-    },
-    {
-      "term": "BIDS"
-    }
-  ],
-  "methods_description": "Intracranial electroencephalography recordings were acquired and organized according to BIDS standards (version 1.8.0). Data processing and organization was performed using bids-matlab-tools (version 8.0). Detailed methodology including electrode placement, recording parameters, sampling rates, and preprocessing steps is documented in the dataset BIDS metadata files and README.",
-  "source_hash": "4ad4fce99187d7aae75e4b7c82266f21c45a8671a6224ceb0f06898b6021d0ec"
+  "source_hash": "882f6f6e12c7f978292d5828821a80428b4f7fc211ec8a106b47bbae0ff9d328"
 }
