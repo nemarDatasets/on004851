@@ -2,8 +2,8 @@
   "version": "2.0",
   "pipeline_stage": "validated",
   "title": "HID",
-  "description": "The HID dataset is a neuroimaging collection of intracranial electroencephalography (iEEG) recordings curated and formatted according to BIDS standards (version 1.8.0). This dataset is derived from OpenNeuro dataset ds004851 (v2.1.0) and has been reformatted and reorganized to meet current BIDS specifications. The dataset contains iEEG recordings from multiple subjects with comprehensive electrode localization information, sampling rates, and preprocessing documentation. This resource is made available under the CC0 license to facilitate open science and data sharing in neuroscience research.",
-  "methods_description": "Intracranial electroencephalography recordings were acquired and organized according to BIDS standards (version 1.8.0). Data processing and organization was performed using bids-matlab-tools (version 8.0). The dataset represents reformatted and reorganized iEEG data derived from OpenNeuro dataset ds004851 (v2.1.0). Detailed methodology including electrode placement, recording parameters, sampling rates, and preprocessing steps is documented in the dataset BIDS metadata files and README. Electrode specifications, anatomical localization, and recording parameters are provided in the accompanying JSON sidecars and channels.tsv files for each recording session.",
+  "description": "The HID dataset is a neuroimaging collection of intracranial electroencephalography (iEEG) recordings curated and formatted according to BIDS standards (version 1.8.0). This dataset is derived from OpenNeuro dataset ds004851 (DOI: 10.18112/openneuro.ds004851.v2.1.0) and serves as a resource for neuroscience research on electrophysiological brain activity. The dataset is made available under the CC0 license to facilitate open science and data sharing. It contains iEEG recordings with associated metadata documenting electrode placement, recording parameters, sampling rates, and brain regions of interest.",
+  "methods_description": "Intracranial electroencephalography (iEEG) recordings were acquired and organized according to BIDS standards (version 1.8.0). Data organization and formatting was performed using bids-matlab-tools (version 8.0). The dataset is derived from OpenNeuro dataset ds004851 (DOI: 10.18112/openneuro.ds004851.v2.1.0). Electrode placement locations were documented in the anatomical derivatives. Recording parameters including sampling rates, filter settings, and amplifier specifications are provided in the JSON sidecars accompanying each recording file. Detailed methodology, participant information, data collection procedures, file organization, and usage guidelines are documented in the dataset README and BIDS metadata files.",
   "license": "CC0",
   "dataset_type": "raw",
   "authors": {
@@ -17,10 +17,16 @@
       "term": "intracranial EEG"
     },
     {
-      "term": "electrocorticography"
+      "term": "iEEG"
+    },
+    {
+      "term": "electrophysiology"
     },
     {
       "term": "electrode recordings"
+    },
+    {
+      "term": "brain activity"
     },
     {
       "term": "BIDS"
