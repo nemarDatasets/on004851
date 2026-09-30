@@ -2,8 +2,8 @@
   "version": "2.0",
   "pipeline_stage": "validated",
   "title": "HID",
-  "description": "The HID dataset is a neuroimaging collection of intracranial electroencephalography (iEEG) recordings curated and formatted according to BIDS standards (version 1.8.0). This dataset is derived from OpenNeuro dataset ds004851 (DOI: 10.18112/openneuro.ds004851.v2.1.0) and serves as a resource for neuroscience research on electrophysiological brain activity. The dataset is made available under the CC0 license to facilitate open science and data sharing. It contains iEEG recordings with associated metadata documenting electrode placement, recording parameters, sampling rates, and brain regions of interest.",
-  "methods_description": "Intracranial electroencephalography (iEEG) recordings were acquired and organized according to BIDS standards (version 1.8.0). Data organization and formatting was performed using bids-matlab-tools (version 8.0). The dataset is derived from OpenNeuro dataset ds004851 (DOI: 10.18112/openneuro.ds004851.v2.1.0). Electrode placement locations were documented in the anatomical derivatives. Recording parameters including sampling rates, filter settings, and amplifier specifications are provided in the JSON sidecars accompanying each recording file. Detailed methodology, participant information, data collection procedures, file organization, and usage guidelines are documented in the dataset README and BIDS metadata files.",
+  "description": "HID is an EEG dataset in BIDS format with HED (Hierarchical Event Descriptors) annotations, contributed by Tony Johnson, Stephen Gordon, Jon Touryan, and Kevin King. The recordings are stored as EEGLAB files (.set/.fdt) with HED version 8.1.0 event annotations. The dataset is distributed through NEMAR and derives from an OpenNeuro deposit (ds004851).",
+  "methods_description": "Electroencephalography (EEG) recordings are organized according to BIDS (version 1.8.0) and stored in EEGLAB format (.set/.fdt files). Events are annotated with HED (Hierarchical Event Descriptors) version 8.1.0. Data organization and formatting was performed using bids-matlab-tools (version 8.0). The dataset is derived from OpenNeuro dataset ds004851 (DOI: 10.18112/openneuro.ds004851.v2.1.0). Recording parameters are provided in the JSON sidecars accompanying the recording files.",
   "license": "CC0",
   "dataset_type": "raw",
   "authors": {
@@ -14,25 +14,19 @@
   },
   "keywords": [
     {
-      "term": "intracranial EEG"
+      "term": "EEG"
     },
     {
-      "term": "iEEG"
+      "term": "Hierarchical Event Descriptors"
     },
     {
-      "term": "electrophysiology"
-    },
-    {
-      "term": "electrode recordings"
-    },
-    {
-      "term": "brain activity"
+      "term": "HED"
     },
     {
       "term": "BIDS"
     },
     {
-      "term": "open data"
+      "term": "EEGLAB"
     }
   ],
   "related_identifiers": [
@@ -42,14 +36,14 @@
       "relation_type": "IsDescribedBy"
     },
     {
-      "identifier": "https://nemar.org/dataexplorer/detail?dataset_id=on004851",
-      "identifier_type": "URL",
-      "relation_type": "IsDescribedBy"
-    },
-    {
       "identifier": "10.18112/openneuro.ds004851.v2.1.0",
       "identifier_type": "DOI",
       "relation_type": "IsDerivedFrom"
+    },
+    {
+      "identifier": "https://nemar.org/dataset/on004851",
+      "identifier_type": "URL",
+      "relation_type": "IsDescribedBy"
     }
   ],
   "resource_type_specific": "EEG Dataset",
@@ -57,7 +51,7 @@
     "eeg"
   ],
   "sizes": [
-    "60.8 GB (332 files)"
+    "56.59 GB (332 files)"
   ],
   "formats": [
     ".fdt",
